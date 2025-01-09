@@ -1,6 +1,6 @@
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import Relationship
-from models.base import TimeStampedModel
+from models.base import TimeStampedModel, Model
 
 
 class User(TimeStampedModel):
