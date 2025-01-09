@@ -1,0 +1,17 @@
+[project]
+name = "sqlalchemy-learn"
+version = "0.1.0"
+description = "Learn from yt"
+authors = [
+    {name = "¨Kaloyan",email = "¨kaloian@gmail.com¨"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.36,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
